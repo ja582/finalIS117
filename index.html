@@ -11,10 +11,6 @@
 
     <title>Joe's Portfolio</title>
     <style>
-        .row{
-            background-color: lightgrey;
-            margin: 1px;
-        }
         .col{
             margin 1px;
         }
@@ -28,10 +24,10 @@
 
     </style>
 </head>
-<body>
-    <div class ="container">
+<body class = "bg-dark">
+    <div class = "container rounded bg-white">
         <br>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark rounded">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light rounded">
             <a class="navbar-brand" href="#">Joe's IS-117 Portfolio Final Project</a>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
@@ -39,13 +35,16 @@
                         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contents.html">Contents</a>
+                        <a class="nav-link" href="content.html">Contents</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://github.com/ja582/finalIS117">GitHub Repo</a>
                     </li>
                 </ul>
             </div>
         </nav>
         <br>
-        <div class="jumbotron">
+        <div class="jumbotron bg-white">
             <div class ="container">
                 <img class ="center img-fluid rounded" src="https://i.imgur.com/XNbHQ51.jpg">
             </div>
@@ -68,11 +67,11 @@
                 </p>
                 <p>
                 <ul class="list-group">
-                    <li class="list-group-item">Git and GitHub</li>
-                    <li class="list-group-item">History of the Internet</li>
-                    <li class="list-group-item">Linux Commands & vi</li>
-                    <li class="list-group-item">How to configure an IDE to upload to a remote</li>
-                    <li class="list-group-item">Bootstrap, CSS, and HTML</li>
+                    <li class="list-group-item"><i class="fab fa-github"></i> Git and GitHub</li>
+                    <li class="list-group-item"><i class="fas fa-wifi"></i> History of the Internet</li>
+                    <li class="list-group-item"><i class="fab fa-linux"></i> Linux Commands & vi</li>
+                    <li class="list-group-item"><i class="fas fa-server"></i> How to configure an IDE to upload to a remote</li>
+                    <li class="list-group-item"><i class="fab fa-bootstrap"></i> Bootstrap, CSS, and HTML</li>
                 </ul>
                 </p>
             </div>
@@ -81,10 +80,11 @@
                     <a href="content.html" class="center btn btn-primary btn-lg active" role="button" aria-pressed="true">Click to see what I learned in IS-117</a>
             </div>
         </div>
-
-    </div>
-    <div class ="container">
-        <p>footer time</p>
+        <footer class="footer mt-auto py-3">
+            <div class="container">
+                <span class="text-muted">Made by Joe A. for IS-117 2019</span>
+            </div>
+        </footer>
     </div>
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
